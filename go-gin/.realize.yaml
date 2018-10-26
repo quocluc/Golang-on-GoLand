@@ -1,0 +1,49 @@
+settings:
+  legacy:
+    force: false
+    interval: 0s
+schema:
+- name: D:\quocl\GoPath\src\apiProject\go-gin
+  path: D:\quocl\GoPath\src\apiProject\go-gin
+  commands:
+    clean:
+      status: true
+    vet:
+      status: true
+    fmt:
+      args:
+      - "y"
+      status: true
+    test:
+      status: true
+    generate:
+      status: true
+    install:
+      status: true
+    build:
+      status: true
+    run:
+      status: true
+  watcher:
+    extensions:
+    - go
+    paths: []
+    ignored_paths:
+    - .git
+    - .realize
+- name: D:\quocl\GoPath\src\apiProject\go-gin
+  path: D:\quocl\GoPath\src\apiProject\go-gin
+  commands:
+    install:
+      status: true
+    run:
+      status: true
+  watcher:
+    extensions:
+    - go
+    paths:
+    - /
+    ignored_paths:
+    - .git
+    - .realize
+    - vendor
